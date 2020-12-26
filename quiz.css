@@ -1,0 +1,29 @@
+
+h1{
+    color: gold;
+}
+
+.question{
+    color: deepskyblue;
+}
+body{
+    margin:2%;
+    font-size: 40px;
+}
+
+
+
+.option{
+    background-color:gray;
+    border-radius: 5px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border:solid 5px white;
+}
+
+
+.option:hover {
+    color: white; 
+    background-color: royalblue; 
+   }

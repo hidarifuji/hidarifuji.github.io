@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>リンク集</title>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <h1>リンク集</h1>
+    <h2>勉強してきたこと</h2>
+
+    <ul>
+        <li><a href="test1.html">今後学ばなければいけないもの</a></li>
+        <li><a href="test3.html">習得した要素とマークアップ手順</a></li>
+        <li><a href="test10.html">僕のHTML大辞典</a></li>
+    </ul>
+
+    <h2>WEBの学習に使っているサイト</h2>
+        <p>
+            CreaterQuest<br>
+            <a href="https://youtu.be/aAxRyjny1Uc" target="_blank">youtube#12</a>
+        </p>
+
+    <h2>ページ内のリンク</h2>
+        <p>下のリンク1〜3を押すとページ内のリンク先に飛びます</p>
+        <ol>
+            <li><a href="#link1">リンク1</a></li>
+            <li><a href="#link2">リンク2</a></li>
+            <li><a href="#link3">リンク3</a></li>
+        </ol>
+        <p>
+            ページの<br> 
+            余白を<br>
+            作るために<br>
+            改行を<br>
+            たくさん<br>
+            しています。<br>
+            だから<br>
+            あまり<br>
+            気にする必要は<br>
+            ないです<br>
+        </p>
+        <h1>僕のHTML大辞典</h1>
+
+        <dl>
+            <dt>p要素</dt>
+            <dd>パラグラフの略で段落を表す</dd>
+            <dt>h1〜h6要素</dt>
+            <dd>ヘディングの略で見出しを表す</dd>
+            <dt>be要素</dt>
+            <dd>ラインブレークの略で改行を表す</dd>
+        </dl>
+
+
+        <ul>
+            <li><a id="link1">リンク1が飛んだ先</a></li>
+            <li><a id="link2">リンク2が飛んだ先</a></li>
+            <li><a id="link3">リンク3が飛んだ先</a></li>
+        </ul>
+
+        <img src="まとめ/milet.png" alt="miletの画像" width="400" height="280">　
+
+
+    <table border="1">
+        <tr>
+            <th>要素名</th>
+            <th>意味・役割</th>
+            <th>カテゴリー</th>
+        </tr>
+        <tr>
+            <td>ｐ</td>
+            <td>段落</td>
+            <td>フロー・コンテンツ</td>
+        </tr>
+        <tr>
+            <td>h1</td>
+            <td>大見出し</td>
+            <td>フロー・コンテンツ</td>
+        </tr>
+        <tr>
+            <td>br</td>
+            <td>改行</td>
+            <td>
+                <li>フロー・コンテンツ</li>
+                <li>フレージング・コンテンツ</li>
+            </td>
+        </tr>
+    </table>
+
+    
+    <a href="https://youtu.be/QEv6gkVLA3w" target="_blank">ここから下は#16回</a>
+    <br>
+    <a href="https://youtu.be/7a2LXUSHFXw" target="_blank">ここから下は#17回</a>
+
+    <h1>お問い合わせフォーム</h1>
+        <form action="receive.html" method="post">
+            <dl>
+                <dt><label for="your_name">お名前</label></dt>
+                <dd>
+                     <input type="text" id="your_name" name="your_name">
+                </dd>
+
+                <dt><label for="your_mail">メールアドレス</label></dt>
+                    <dd>
+                        <input type="text" id="your_mail" name="your_email">
+                    </dd>
+                
+                <dt>性別</dt>
+                    <dd>
+                        <ul>
+                            <label><li><input type="radio" name="gender" value="男">男性</li></label>
+                            <label><li><input type="radio" name="gender" value="女">女性</li></label>
+                        </ul>
+                    </dd>
+
+                <dt>お問い合わせ店舗</dt>
+                    <dd>
+                        <ul>
+                            <label><li><input type="radio" name="shop" value="東京本店">東京本店</li></label>
+                            <label><li><input type="radio" name="shop" value="大阪支店">大阪支店</li></label>
+                            <label><li><input type="radio" name="shop" value="福岡支店">福岡支店</li></label>
+                        </ul>
+                    </dd>
+                    
+                <dt><label for="type">お問い合わせ種別</label></dt>
+                    <dd>
+                        <select id="type" name="type">
+                            <option value="製品に関するお問い合わせ">製品に関するお問い合わせ</option>
+                            <option value="当社に関するお問い合わせ">当社に関するお問い合わせ</option>
+                            <option value="求人に関するお問い合わせ">求人に関するお問い合わせ</option>
+                            <option value="その他のお問い合わせ">その他のお問い合わせ</option>
+                         </select>
+                    </dd>
+
+                <dt><label for="inquiry">お問い合わせ</label></dt>
+                    <dd>
+                        <textarea id="inquiry" name="inquiry" cols="30" rows="10"></textarea>
+                    </dd>
+            </dl>
+            <p><input type="submit" value="入力確認画面へ"></p>
+        </form>
+
+        
+</body>
+</html>

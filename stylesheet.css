@@ -1,0 +1,37 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0%;
+}
+.header{
+    align-items: center;
+    background-color: aqua;
+    display:flex;
+    flex-flow:row;  
+    height: 56px;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.header__title{
+    font-size: 20px;
+    margin: 0%;
+    font-weight: normal;
+}
+.header__link{
+    padding:0 10px;
+}
+.header__anchor{
+    font-size:16px;
+    text-decoration: none;
+    color: green;
+    padding: 0 10px;
+}
+.header__anchor:hover{
+    background-color: #000a;
+    color: cornsilk;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+
